@@ -3,9 +3,7 @@ Hey, This is a personal portfolio website. If you want to edit this. Clone this 
 
 To run this on localhost type npm start and when u are done coding type npm run build to build your app.
 
-NOTE: if you have yarn just replace npm start and npm run build with yarn start and yarn build.
-
-<a href="https://www.buymeacoffee.com/vivek9patel" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" >
 
 ## Demo Link: https://rajatsoni.netlify.app/
 Portfolio Preview:-
