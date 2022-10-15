@@ -81,11 +81,11 @@ function BlogPage() {
             </div>
             <div className="blogPage--container">
                 <div className="blog--search">
-                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Seach blog..." className={classes.search}/>
+                    <input type="text" value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search blog..." className={classes.search}/>
                 </div>
                 <div className="blogs--container">
                     <Grid className="blog-grid" container direction="row" alignItems="center" justifyContent="center">
-                        {filteredArticles.reverse().map(blog => (
+                        {filteredArticles.map(blog => (
                             <SingleBlog 
                                 theme={theme}
                                 title={blog.title}

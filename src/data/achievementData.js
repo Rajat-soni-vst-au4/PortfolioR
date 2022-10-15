@@ -1,34 +1,38 @@
+import powerProject from "../assets/png/powerProject.png";
+import founderCircle from "../assets/png/founderCircle.png";
+import risingStar from "../assets/png/risingStar.png";
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
-    achievements : [
-        {
-            id : 1,
-            title : '',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : ''
-        },
-        {
-            id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
-        },
-        {
-            id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
-        }
-
-    ]
-}
-
+  bio: "It doesn't matter how many times you win an award, it is always very special.",
+  achievements: [
+    {
+      id: 1,
+      title: "The Power Project",
+      details:
+        "You are one of the few people who have been awarded this prize. We would like to honour your will and hard work during the Construct Week, and we look forward to more of your work. ",
+      date: "Jun, 2022",
+      field: "Project",
+      image: powerProject,
+    },
+    {
+      id: 2,
+      title: "The Founder’s Circle ",
+      details:
+        " You have been awarded this prize for being thoroughly consistent in your journey at Masai.Your performance in DSA, Coding,  and being regular in the classes are recognized, and for that, we are presenting this award to you. ",
+      date: "Jun, 2022",
+      field: "Performance",
+      image: founderCircle,
+    },
+    {
+      id: 3,
+      title: "Rising Star Award",
+      details:
+        "We would like to recognize your consistency and the hard work you’ve put in towards staying regular in solving the assignments and attending classes. ",
+      date: "Jun, 2022",
+      field: "RisingStar",
+      image: risingStar,
+    },
+  ],
+};
 
 // Do not remove any fields.
 // Leave it blank instead as shown below.

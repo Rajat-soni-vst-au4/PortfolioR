@@ -8,9 +8,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-  
 }
 
 .experience-description {
@@ -19,7 +16,7 @@
     padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     justify-content: center;
     margin-right: 2rem;
 }
@@ -36,7 +33,7 @@
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 220px;
+    height: 140px;
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
@@ -156,12 +153,12 @@
     
     .experience-details > h4 {
         font-size: 1.125rem;
-        line-height: 150%;
+        line-height: 126%;
     }
     
-    .experience-details > h3 {
+    .experience-details > h5 {
         font-size: 1.05rem;
-        line-height: 150%;
+        line-height: 126%;
     }
 }
 

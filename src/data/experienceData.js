@@ -1,16 +1,18 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Ecomoceana Tech. Pvt Ltd., Mohali(Punjab)',
-        jobtitle: 'I was a Sales Consultant and responsibilities started with first call and endup after the product sale. All the steps were completed professionaly with complete transprency and in a legal way.  ',
-        startYear: 'Nov - 2020',
-        endYear: 'Nov - 2021'
+        company: 'OceanaTech Pvt Ltd',
+        jobtitle: 'Sales Consultant',
+        startYear: '2018',
+        endYear: '2020',
+        describe: "My responsibilities started with first call and endup after the product sale. All the steps were completed with transprency and in a legal way.",
     },
     {
         id: 2,
-        company: 'Eclerx Pvt Ltd., Chandigarh',
-        jobtitle: 'I Handled incoming interactions from international clients regarding products and service concern. Provide Information about other product and maximize the revenue with selling.',
-        startYear: 'Nov - 2020',
-        endYear: 'Nov - 2021'
+        company: 'Eclerx Pvt Ltd',
+        jobtitle: 'Analyst',
+        startYear: '2020',
+        endYear: '2021',
+        describe: "Dealing with US customers to resolve their problems and providing information about other LOBs. Managing team stack and meetings. "
     },
 ]

@@ -14,9 +14,9 @@ function AchievementCard({id, title, details, date, field, image}) {
 
     const useStyles = makeStyles((t) => ({
         achievementCard : {
-            backgroundColor:theme.primary30,
+            backgroundColor:theme.primary80,
             "&:hover": {
-                backgroundColor:theme.primary50,
+                backgroundColor:theme.primary80,
             },
         },
     }));
@@ -28,9 +28,9 @@ function AchievementCard({id, title, details, date, field, image}) {
                <div className="achievecard-content">
                     <div className="achievecard-details1">
                         <h2 style={{color: theme.tertiary}}>{title}</h2>
-                        <p style={{color: theme.tertiary80}}>{details}</p>
+                        <p style={{color: theme.tertiary}}>{details}</p>
                     </div>
-                    <div className="achievecard-details2" style={{color: theme.primary}}>
+                    <div className="achievecard-details2" style={{color: theme.tertiary}}>
                         <h5>{date}</h5>
                         <div className="achievecard-field">
                             <AiOutlineFolder />

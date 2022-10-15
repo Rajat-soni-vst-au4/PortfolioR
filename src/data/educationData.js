@@ -1,25 +1,23 @@
 export const educationData = [
-    {
-        id: 1,
-        institution: 'Masai School',
-        course: 'Full-Stack web Devlopment',
-        startYear: '2021',
-        endYear: '2022'
-    },
-
-    {
-        id: 2,
-        institution: 'Amity University, Noida',
-        course: 'Master of Bussiness Administration(MBA)',
-        startYear: '2019',
-        endYear: '2021'
-    },
-    {
-        id: 3,
-        institution: 'MGS University, Bikaner',
-        course: 'Bachelor of Bussiness Administration(BBA)',
-        startYear: '2015',
-        endYear: '2018'
-    },
-    
-]
+  {
+    id: 1,
+    institution: "Masai School, Banglore",
+    course: "Full Stack Web Development Course",
+    startYear: "Dec 2021",
+    endYear: "Dec 2022",
+  },
+  {
+    id: 2,
+    institution: "Amity University, Noida",
+    course: "Master of Bussiness Aministration(MBA)",
+    startYear: "Jan 2019",
+    endYear: "Oct 2021",
+  },
+  {
+    id: 3,
+    institution: "RYAN College,Hanumangarh",
+    course: "Bachelor of Bussiness Administration(BBA)",
+    startYear: "June 2015",
+    endYear: "May 2018",
+  },
+];

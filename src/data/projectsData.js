@@ -1,34 +1,105 @@
-import one from '../assets/svg/projects/one.svg'
-import two from '../assets/svg/projects/two.svg'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
-import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
-
+import one from "../assets/png/Projects/zee5.png";
+import two from "../assets/png/Projects/dineout.png";
+import Masai20 from "../assets/png/Projects/masai2o.png";
+import GoMasai from "../assets/png/Projects/GoMasai.png";
+import cricinfo from "../assets/png/Projects/cricinfo.png";
+// import three from "../assets/svg/projects/three.svg";
 
 export const projectsData = [
-    {
-        id: 1,
-        projectName: 'Internshala Clone',
-        projectDesc: 'A web application where internships/jobs are available with training at the desired location.',
-        tags: ['HTML', 'CSS', 'Material Ui', 'Javascript','Bootstrap'],
-        code: 'https://github.com/Rajat-soni-vst-au4/Internshala',
-        demo: 'https://super-blini-e81cc1.netlify.app/',
-        image: 'https://cdn.dribbble.com/users/1018473/screenshots/3952536/comp_2_2.gif'
-    },
-    {
-        id: 5,
-        projectName: 'Weather',
-        projectDesc: 'A Simple Weather application where you can search for city to know there whather',
-        tags: ['HTML','CSS','JS'],
-        demo: 'https://boring-bassi-d831e4.netlify.app/',
-        image: 'data:image/jpeg;base64,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'
-    },
-   
-]
+  {
+    id: 1,
+    projectName: "Zee5 Clone",
+    projectHade: "Zee5 Online OTT platform",
+    projectDesc: [
+      "Sign Up | Login | All  Page - with Filter & Sort Functionality",
+      "Search Functionality for Movies and TV Shows",
+      "User Profile (dynamic) User Can update well profile",
+      "Single Video Page (dynamic) along with Add To Watch List Feature",
+      "Buy Plan | Payment Page along with all Functionality",
+    ],
+    tags: ["HTML", "CSS", "JavaScript"],
+    code: "https://github.com/Akash2377/Zee5",
+    demo: "https://zee5clone22.netlify.app",
+    image: one,
+  },
 
+  // {
+  //   id: 2,
+  //   projectName: "Masai2.0",
+  //   projectHade: "Online Learning Platform",
+  //   projectDesc: [
+  //     "Sign Up | Login | for three users Student | Admin | Super Admin",
+  //     "Profile Page (Dynamic) for every user",
+  //     "Super Admin and Admin can add course and lectures",
+  //     "Add to favorites and add to cart options for student",
+  //     "Student can buy the course and then able to watch all the course lectures",
+  //   ],
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   code: "https://github.com/Akash2377/Masai_2.0",
+  //   demo: "https://masai2-0learningapp.netlify.app/",
+  //   image: Masai20,
+  // },
+  // {
+  //   id: 3,
+  //   projectName: "GoMasai Search Engine",
+  //   projectHade: "Search Engine for Masai",
+  //   projectDesc: [
+  //     "Search Functionality",
+  //     "User will get all results according to the search",
+  //     "All Results Page | News Page | Images Page | Maps | Video Page ",
+  //     "User can use mic for text typing automatically",
+  //     "Language translator is available for all the users",
+  //   ],
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   code: "https://github.com/Akash2377/gomasai",
+  //   demo: "https://gomasai.netlify.app/",
+  //   image: GoMasai,
+  // },
+  // {
+  //   id: 4,
+  //   projectName: "Dineout Clone",
+  //   projectHade: "Online Restaurants reservation",
+  //   projectDesc: [
+  //     "Sign Up | Login | User Profile",
+  //     "All  Page - with Filter & Sort Functionality",
+  //     "Single Product Page (dynamic) along with Reservation Feature",
+  //     "Reservation Confirmation Page",
+  //     "Reservation Cancellation Page",
+  //   ],
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   code: "https://github.com/Akash2377/cloneItDineout",
+  //   demo: "https://dineoutclone22.netlify.app/",
+  //   image: two,
+  // },
+  // {
+  //   id: 5,
+  //   projectName: "ESPNcricinfo",
+  //   projectHade: "Get Live Cricket Score",
+  //   projectDesc: [
+  //     "Home Page with theme change functionality",
+  //     "Latest cricket news page",
+  //     "Live Score Page ",
+  //     "Sign Up | Login for cricket fantasy section",
+  //     "Play Fantasy Cricket and win real cash",
+  //     "Player search functionality",
+  //     "Players Profile Page",
+  //   ],
+  //   tags: ["HTML", "CSS", "React", "materialui"],
+  //   code: "https://github.com/Akash2377/ESPNcricinfo_Clone",
+  //   demo: "https://espncricinfoclone.netlify.app/",
+  //   image: cricinfo,
+  // },
+  // {
+  //   id: 5,
+  //   projectName: "Weather App",
+  //   projectDesc:
+  //     "Weather forecast systems and applications predict weather conditions based on multiple parameters.",
+  //   tags: ["Django", "CSS", "Material Ui"],
+  //   code: "https://github.com/hhhrrrttt222111/developer-portfolio",
+  //   demo: "https://github.com/hhhrrrttt222111/developer-portfolio",
+  //   image: three,
+  // },
+];
 
 // Do not remove any fields.
 // Leave it blank instead as shown below

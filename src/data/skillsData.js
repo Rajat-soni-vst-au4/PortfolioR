@@ -1,46 +1,25 @@
- export const skillsData = [
-    // 'HTML',
-    // 'Javascript',
-    // 'CSS',
-    // 'React',
-    // // 'Express',
-    // // 'Node JS',
-    // 'Bootstrap',
-    // 'C',
-    // 'C++',
-    // 'Python',
-    // 'MongoDB',
-    // 'Wordpress',
-    // 'Microsoft Office',
-    // // 'MySQL ',
-        'HTML',
-        'CSS',
-        'Javascript',
-     
-        'React',
-        'Redux',
-        'TypeScript',
-        // 'NodeJS',
-        // 'MongoDB',
-        // "Express",
-        'TailWind',
-        'Bootstrap',
-        'Canva',
-        "Git",
-        "Cypress",
-        "npm",
-        // "PostMan",
-        // "MaterialUI",
-   
-        "Microsoft Office",
-        
-    
-    ]
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "Javascript",
+  "React",
+  // "Redux",
+  "Typescript",
+  // "Node JS",
+  // "Express",
+  "MongoDB",
+  "Firebase",
+  "Tailwind",
+  "Bootstrap",
+  "figma",
+  "canva",
+  "Microsoft Office",
+    "Picsart",
 
+];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
-
 
 // AVAILABLE SKILLS
 
@@ -113,7 +92,7 @@
     Gimp
     Graphql
     Lightroom
-    MaterialUI
+    
     Nginx
     Numpy
     OpenCV
